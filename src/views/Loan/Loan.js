@@ -29,6 +29,7 @@ function LoanComponent() {
     }
     msg += loanStatus;
     setMessage(msg);
+    setTimeout(() => setLoanStatus(""), 5000);
   };
 
   const validNumber = (value) => {
