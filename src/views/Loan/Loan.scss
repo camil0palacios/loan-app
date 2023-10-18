@@ -30,12 +30,16 @@
       }
     }
     button {
+      cursor: pointer;
       width: -webkit-fill-available;
       padding: 5px;
       border: none;
       border-radius: 5px;
-      background: #bb8fce;
+      background: #8e44ad;
       color: #ffffff;
+      &:hover {
+        background: #b183c4;
+      }
     }
   }
 
