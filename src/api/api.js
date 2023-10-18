@@ -1,7 +1,5 @@
 const API_URL = process.env.REACT_APP_API_URL;
 
-console.log(API_URL);
-
 const request = (basePath) => {
   const post = async (path = "", body = {}) => {
     const url = basePath + path;
